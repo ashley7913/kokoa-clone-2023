@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chats - Kokoa Talk</title>
+    <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>     
+            <i class="fas fa-wifi"></i>       
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fas fa-battery-three-quarters"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+    <header class="screen-header screen-header-chats">
+        <h1 class="screen-header__title">Chats</h1>
+        <div class="screen-header__icons">
+            <span><i class="fas fa-search fa-2x"></i></span>
+            <span class="comment-plus">
+                <i class="far fa-comment fa-2x comment-plus__comment"></i>
+                <span class="comment-plus__plus">+</span>
+            </span>
+            <span><i class="fas fa-music fa-2x"></i></span>
+            <span><i class="fas fa-cog fa-2x"></i></span>
+        </div>
+    </header>
+    <main class="main-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img class="user-component__avatar user-component__avatar" src="HALO-Fi final logo-4.png"/>
+                <div class="user-component__text">
+                    <h4 class="user-component__title">HALO-Fi</h4>
+                    <h6 class="user-component__subtitle">Please check My Kokoa Account Info</h6>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <span class="user-component__time">21:22</span>
+                <div class="badge">2</div>
+            </div>
+        </div>
+        <div class="user-component">
+            <div class="user-component__column">
+                <img class="user-component__avatar user-component__avatar" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/KakaoTalk_logo.svg"/>
+                <div class="user-component__text">
+                    <h4 class="user-component__title">KokoaTalk</h4>
+                    <h6 class="user-component__subtitle">You have automatically logged into KokoaTalk </h6>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <span class="user-component__time">18:43</span>
+                <div class="badge">1</div>
+            </div>
+        </div>
+        <div class="user-component">
+            <div class="user-component__column">
+                <img class="user-component__avatar user-component__avatar" src="https://play-lh.googleusercontent.com/1PNs3F7dnb1ZnpwSDOp6sEs2drjgO9yaG8xSgTud6P5A8Lyj_0zjrTspXU-LfWbEUQ"/>
+                <div class="user-component__text">
+                    <h4 class="user-component__title">W.Concept</h4>
+                    <h6 class="user-component__subtitle">(AD) New Season Shop</h6>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <span class="user-component__time">15:59</span>
+                <div class="badge">10</div>
+            </div>
+        </div>
+        <div class="user-component">
+            <div class="user-component__column">
+                <img class="user-component__avatar user-component__avatar" src="data:image/png;base64,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"/>
+                <div class="user-component__text">
+                    <h4 class="user-component__title">XEXYMIX</h4>
+                    <h6 class="user-component__subtitle">(광고) 봄이 오는 주말, 최대 66% 할인과 함께 <i class="fas fa-heart"></i>...</h6>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <span class="user-component__time">15:56</span>
+                <div class="badge">3</div>
+            </div>
+        </div>
+        <div class="user-component">
+            <div class="user-component__column">
+                <img class="user-component__avatar user-component__avatar" src="https://play-lh.googleusercontent.com/qkbFCVxeAlft0475kZ7nBLPS6pnXMBIizR1jVzTPjLjoY30HedRRk0NFJKWwhVjlzA=w240-h480-rw"/>
+                <div class="user-component__text">
+                    <h4 class="user-component__title">GMarket</h4>
+                    <h6 class="user-component__subtitle">(광고) 먹거리 장보기 찬스!<i class="fas fa-shopping-cart"></i> 매일 20% 할인</h6>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <span class="user-component__time">14:02</span>
+                <div class="badge">1</div>
+            </div>
+        </div>
+    </main>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="far fa-user fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification badge">1</span>
+                    <i class="fas fa-comment fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html">
+                    <i class="fas fa-search fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <span class="nav__update point"></span>
+                    <i class="fas fa-ellipsis-h fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <script src="https://kit.fontawesome.com/6478f529f2.js"
+    crossorigin="anonymous"></script>
+</body>
+</html>

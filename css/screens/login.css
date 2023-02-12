@@ -30,7 +30,7 @@
     opacity: 0.8;
 }
 #login-form input:not([type="submit"]) {
-    border-bottom: solid 1px rgba(0, 0, 0, 0.2);
+    border-bottom: var(--main-border);
 }
 #login-form input[type="submit"] {
     background-color:  #FAE100;
