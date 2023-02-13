@@ -161,7 +161,3 @@
 .reply__column button i {
  opacity: 1;   
 }
-
-.reply:focus-within .reply__column:first-child {
-
-}
