@@ -161,3 +161,7 @@
 .reply__column button i {
  opacity: 1;   
 }
+
+.reply:focus-within {
+    height: 100px;
+}
